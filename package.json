@@ -2,11 +2,11 @@
   "name": "express-boilerplate",
   "version": "0.0.1",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "mocha --require test/setup.js --watch",
-    "dev": "nodemon server.js",
-    "start": "node server.js",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
